@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="servicesStyles.css">
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/LEALCO INMOBILIARIA.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Lealco | Soluciones Industriales</title>
+</head>
+<body>
+   <!-- Overlay y Sidebar -->
+    <div class="overlay" id="overlay"></div>
+    <nav class="sidebar" id="sidebar">
+      <a href="index.html">INICIO</a>
+      <a href="#serv" id="sidebar-servicios-link">SERVICIOS ▾</a>
+        <div class="submenu" id="sidebar-submenu">
+            <a href="comercial.html">Comercial</a>
+            <a href="minera.html">Industria Minera</a>
+            <a href="electrica.html">Inst. Eléctricas</a>
+            <a href="industrial.html">Mantenimiento Industrial</a>
+            <a href="inmobiliaria.html">Inmobiliaria</a>
+        </div>
+      <a href="#contactos">CONTACTOS</a>
+    </nav>
+    
+    <!-- Navbar principal -->
+    <header class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+        <ul class="nav-left">
+          <li><a href="/index.html">INICIO</a></li>
+          <li><a href="#proyectos">PROYECTOS</a></li>
+        </ul>
+        <div class="logo">
+          <img id="logo-img" src="img/LOGO OFICIAL-blanco_Mesa de trabajo 1.png" alt="LEALCO Logo">
+        </div>
+        <ul class="nav-right">
+          <li><a href="#clientes">CLIENTES</a></li>
+          <li class="dropdown">
+            <a href="#serv" id="servicios-link">SERVICIOS ▾</a>
+            <ul class="dropdown-menu" id="dropdown-menu">
+              <li><a href="comercial.html">Comercial</a></li>
+              <li><a href="minera.html">Industria Minera</a></li>
+              <li><a href="electrica.html">Inst. Eléctricas</a></li>
+              <li><a href="industrial.html">Mantenimiento Industrial</a></li>
+              <li><a href="inmobiliaria.html">Inmobiliaria</a></li>
+            </ul>
+          </li>
+          <li><a href="#contactos">CONTACTOS</a></li>
+        </ul>
+      </div>
+    </header>
+    
+    <!-- Hero Services ------------------------------------ -->
+     
+    <div class="hero-imagen" style="background-image: url(public/industrial/5.jpg);">
+        <section class="hero" >
+            <div class="content">
+                <h2  class="animar-titulo">Soluciones Integrales para Cada Industria</h2>
+            </div>
+        <div class="waves"></div>
+        </section>  
+        <section class="description-container">
+            <blockquote class="otro-blockquote">
+                <p>Proveemos servicios integrales de mantenimiento industrial, enfocados en prevenir fallas, optimizar el funcionamiento de equipos y prolongar la vida útil de las instalaciones. Actuamos con rapidez ante emergencias y ofrecemos planes de mantenimiento programado que permiten a las industrias mantener su producción sin interrupciones.</p>
+            </blockquote>
+        </section>
+    </div>
+    <!-- Card Services ---------------------------------------------------------------- -->
+
+    <div class="container-fluid projects bg-light py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div>
+                        <h4 class="text-primary">Nuestros Servicios</h4>
+                        <h1 class="display-4 mb-4">INDUSTRIAL</h1>
+                        <p class="mb-5">Con nosotros, tu infraestructura industrial está en manos expertas que garantizan su máximo rendimiento.</p>
+                        <ul class="nav">
+                            <li class="nav-item bg-white mb-4 w-100">
+                                <a class="d-flex align-items-center h4 mb-0 p-3 active" data-bs-toggle="pill" href="#ProjectsTab-1">
+                                    <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-bolt small"></span></div><span>Mantenimiento Correctivo y Preventivo</span>
+                                </a>
+                            </li>
+                            <li class="nav-item bg-white mb-4 w-100">
+                                <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-2">
+                                    <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-charging-station small"></span></div><span>Diagnóstico Técnico Especializado</span>
+                                </a>
+                            </li>
+                            <li class="nav-item bg-white mb-4 w-100">
+                                <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-3">
+                                    <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-broadcast-tower small"></span></div><span>Refuerzo de Infraestructura y Rehabilitación</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="tab-content">
+                        <div id="ProjectsTab-1" class="tab-pane fade show p-0 active">
+                            <div class="projects-item">
+                                <img src="public/industrial/3.jpg" class="img-fluid w-100" alt="">
+                                <div class="projects-content bg-white p-4">
+                                    <h4 class="mb-3">Mantenimiento Correctivo y Preventivo</h4>
+                                    <p class="mb-4">Restauramos y reforzamos estructuras debilitadas por el uso, clima o tiempo, garantizando la seguridad de los trabajadores y prolongando la vida útil de los activos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="ProjectsTab-2" class="tab-pane fade show p-0">
+                            <div class="projects-item">
+                                <img src="public/industrial/2.jpg" class="img-fluid w-100" alt="">
+                                <div class="projects-content bg-white p-4">
+                                    <h4 class="mb-3">Diagnóstico Técnico Especializado</h4>
+                                    <p class="mb-4">Utilizamos herramientas y personal capacitado para detectar puntos críticos en la infraestructura, anticipando daños que podrían detener las operaciones.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="ProjectsTab-3" class="tab-pane fade show p-0">
+                            <div class="projects-item">
+                                <img src="public/industrial/6.jpg" class="img-fluid w-100" alt="">
+                                <div class="projects-content bg-white p-4">
+                                    <h4 class="mb-3">Refuerzo de Infraestructura y Rehabilitación</h4>
+                                    <p class="mb-4">Restauramos y reforzamos estructuras debilitadas por el uso, clima o tiempo, garantizando la seguridad de los trabajadores y prolongando la vida útil de los activos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card services reverse -------------------------------------------------------- -->
+<div class="container-fluid projects bg-light py-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-5 order-1 order-lg-2 wow fadeInLeft" data-wow-delay="0.2s">
+                <div>
+                    <h4 class="text-primary">Nuestros Servicios</h4>
+                    <h1 class="display-4 mb-4">INDUSTRIAL</h1>
+                    <p class="mb-5">Protegemos la operatividad de tu empresa con mantenimiento ágil, seguro y eficiente.</p>
+                    <ul class="nav">
+                        <li class="nav-item bg-white mb-4 w-100">
+                            <a class="d-flex align-items-center h4 mb-0 p-3 active" data-bs-toggle="pill" href="#ProjectsTabR-1">
+                                <div class="projects-icon btn-md-square bg-primary text-white me-3">
+                                    <span class="fas fa-bolt small"></span>
+                                </div>
+                                <span>Protección Anticorrosiva y Pintura Técnica</span>
+                            </a>
+                        </li>
+                        <li class="nav-item bg-white mb-4 w-100">
+                            <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTabR-2">
+                                <div class="projects-icon btn-md-square bg-primary text-white me-3">
+                                    <span class="fas fa-charging-station small"></span>
+                                </div>
+                                <span>Servicio Ágil ante Emergencias</span>
+                            </a>
+                        </li>
+                        <li class="nav-item bg-white mb-4 w-100">
+                            <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTabR-3">
+                                <div class="projects-icon btn-md-square bg-primary text-white me-3">
+                                    <span class="fas fa-broadcast-tower small"></span>
+                                </div>
+                                <span>Documentación y Seguimiento Técnico</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-7 order-2 order-lg-1 wow fadeInRight" data-wow-delay="0.2s">
+                <div class="tab-content">
+                    <div id="ProjectsTabR-1" class="tab-pane fade show p-0 active">
+                        <div class="projects-item">
+                            <img src="public/industrial/4.jpg" class="img-fluid w-100" alt="">
+                            <div class="projects-content bg-white p-4">
+                                <h4 class="mb-3">Protección Anticorrosiva y Pintura Técnica</h4>
+                                <p class="mb-4">Aplicamos recubrimientos especiales que resisten ambientes agresivos, humedad, productos químicos o exposición prolongada al sol y la lluvia.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="ProjectsTabR-2" class="tab-pane fade show p-0">
+                        <div class="projects-item">
+                            <img src="public/industrial/7.jpg" class="img-fluid w-100" alt="">
+                            <div class="projects-content bg-white p-4">
+                                <h4 class="mb-3">Servicio Ágil ante Emergencias</h4>
+                                <p class="mb-4">Contamos con un equipo listo para responder rápidamente ante emergencias estructurales o técnicas que puedan poner en riesgo las operaciones.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="ProjectsTabR-3" class="tab-pane fade show p-0">
+                        <div class="projects-item">
+                            <img src="public/industrial/5.jpg" class="img-fluid w-100" alt="">
+                            <div class="projects-content bg-white p-4">
+                                <h4 class="mb-3">Documentación y Seguimiento Técnico</h4>
+                                <p class="mb-4">Entregamos reportes detallados de cada intervención, incluyendo bitácoras, planos actualizados y recomendaciones de mejora para una gestión eficiente del mantenimiento.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <!-- Cards Pros---------------------------------------------- -->
+    <div class="container-father">
+        <div class="container">
+            <h1>Ventajas de trabajar con nosotros</h1>
+            <div class="card">
+                <div class="box">
+                    <div class="content">
+                        <h2>01</h2>
+                        <h3>Planificación Preventiva para Menos Paradas</h3>
+                        <p>Nuestros planes de mantenimiento preventivo ayudan a evitar paradas inesperadas y costosas, asegurando que tus operaciones industriales se mantengan funcionando sin interrupciones.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="box">
+                    <div class="content">
+                        <h2>02</h2>
+                        <h3>Atención Rápida y Eficiente en Emergencias</h3>
+                        <p>Ofrecemos un servicio de atención inmediata en caso de emergencias, minimizando el tiempo de inactividad de tus equipos e instalaciones industriales.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="box">
+                    <div class="content">
+                        <h2>03</h2>
+                        <h3>Extensión de la Vida Útil de los Equipos</h3>
+                        <p>A través de un mantenimiento adecuado, prolongamos la vida útil de tus equipos y estructuras industriales, reduciendo los costos a largo plazo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BOTÓN DE REDES SOCIALES FLOTANTE -->
+ <div class="social-launcher" id="social-launcher">
+    <div class="launcher-toggle" id="launcher-toggle">
+      <img src="img/redes.png" alt="Redes" />
+    </div>
+    <div class="social-icons" id="social-icons">
+      <a href="https://wa.me/+528721213057" target="_blank" class="icon-btn"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+      <a href="https://www.instagram.com/lealcosoluciones/" target="_blank" class="icon-btn"><img src="img/instagram.png" alt="Instagram"></a>
+      <a href="https://www.facebook.com/lealcosoluciones/" target="_blank" class="icon-btn"><img src="img/facebook.png" alt="Facebook"></a>
+      <a href="https://www.tiktok.com/@lealcosoluciones" target="_blank" class="icon-btn"><img src="img/tiktok.png" alt="Tiktok"></a>
+    </div>
+  </div>
+
+<!-- FOOTER -->
+<footer class="footer-lealco" id="contactos">
+    <div class="footer-top-bar">
+      <div class="footer-logo">
+        <img src="img/LOGO OFICIAL-blanco_Mesa de trabajo 1.png" alt="LEALCO Logo">
+      </div>
+      <div class="footer-social-top">
+        <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="img/tiktok.png" alt="TikTok"></a>
+      </div>
+    </div>
+    <hr class="footer-divider">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>Contacto</h3>
+        <p><strong>Dirección:</strong><br>Av. Universidad #251, Col. Paraíso del Nazas.<br>Torreón, Coahuila. C.P. 27110</p>
+        <p><strong>Email:</strong><br><a href="mailto:contacto@lealcosoluciones.com">contacto@lealcosoluciones.com</a></p>
+        <p><strong>Teléfonos:</strong><br><a href="tel:8721213057">8721213057</a></p>
+        <br>
+        <!-- Politica de privacidad -->
+        <h3>Aviso de Privacidad</h3>
+        <a href="politica.html">Aviso de Privacidad</a>
+      </div>
+      <div class="footer-col">
+        <h3>Horario</h3>
+        <p>Lunes a Viernes<br>9:00 AM – 6:00 PM</p>
+      </div>
+      <div class="footer-col">
+        <h3>Ubicación</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2019.8338608882138!2d-103.42932331765607!3d25.573827783374796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fda387f908415%3A0xcd4c7310b0577f7f!2sLEALCO%20SOLUCIONES!5e0!3m2!1ses-419!2smx!4v1746297630932!5m2!1ses-419!2smx" width="300" height="300" style="border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="Script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>

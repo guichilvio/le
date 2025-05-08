@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/LEALCO INMOBILIARIA.png" type="image/x-icon">
+
+  <title>LEALCO</title>
+</head>
+<body>
+   <!-- VIDEO DE FONDO -->
+   <div class="header-video-container" style="position: relative; height: 100vh; overflow: hidden; z-index: 0;">
+    <video id="background-video" autoplay muted loop playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+      <source src="img/VIDEO.mp4" type="video/mp4">
+      Tu navegador no soporta la etiqueta de video.
+    </video>
+  
+    <!-- Botón para activar audio -->
+    <button id="toggleAudio">
+    🔊 Activar sonido
+    </button>
+  </div>
+
+  <!-- OVERLAY Y SIDEBAR -->
+  <div class="overlay" id="overlay"></div>
+  <nav class="sidebar" id="sidebar">
+    <a href="#">INICIO</a>
+    <a href="#quienes">NOSOTROS</a>
+    <a href="#proyectos">PROYECTOS</a>
+    <a href="#serv">SERVICIOS</a>
+    <a href="#clientes">CLIENTES</a>
+    <a href="#contactos">CONTACTOS</a>
+  </nav>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+      <ul class="nav-left">
+        <li><a href="#">INICIO</a></li>
+        <li><a href="#quienes">NOSOTROS</a></li>
+        <li><a href="#proyectos">PROYECTOS</a></li>
+      </ul>
+      <div class="logo">
+        <img id="logo-img" src="img/LOGO OFICIAL-blanco_Mesa de trabajo 1.png" alt="LEALCO Logo">
+      </div>
+      <ul class="nav-right">
+        <li><a href="#serv">SERVICIOS</a></li>
+        <li><a href="#clientes">CLIENTES</a></li>
+        <li><a href="#contactos">CONTACTOS</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+  <!-- QUIÉNES SOMOS -->
+  <div id="quienes"></div>
+  <br>
+  <br>
+  <section class="valores-lealco">
+    <div class="intro">
+      <h2>Quiénes Somos</h2>
+      <p>En <strong>LEALCO Soluciones</strong> ofrecemos soluciones solares confiables, enfocadas en la innovación tecnológica, la accesibilidad y un servicio humano que transforma energía en bienestar.</p>
+    </div>
+    <div class="contenedor-valores">
+      <div class="valor">
+        <svg viewBox="0 0 24 24"><path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"/></svg>
+        <h3>Equipo Comprometido</h3>
+        <p>Personas reales impulsando cada proyecto, con atención cercana, responsabilidad y compromiso profesional.</p>
+      </div>
+      <div class="valor">
+        <svg viewBox="0 0 24 24"><path d="M21 2H3c-1.1 0-2 .9-2 2v16l4-4h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
+        <h3>Documentación Clara</h3>
+        <p>Facilitamos cada instalación con guías prácticas y documentación sencilla para clientes y técnicos.</p>
+      </div>
+      <div class="valor">
+        <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+        <h3>Simplicidad y Accesibilidad</h3>
+        <p>Diseños amigables, soluciones fáciles de usar y precios competitivos pensados para todos los públicos.</p>
+      </div>
+      <div class="valor">
+        <svg viewBox="0 0 24 24"><path d="M12 4c-4.4 0-8 1.8-8 4v8c0 2.2 3.6 4 8 4s8-1.8 8-4V8c0-2.2-3.6-4-8-4zm0 14c-3.3 0-6-1.3-6-3s2.7-3 6-3 6 1.3 6 3-2.7 3-6 3z"/></svg>
+        <h3>Diseño Centrado en el Usuario</h3>
+        <p>Nuestras soluciones están pensadas desde el punto de vista del usuario: intuitivas, prácticas y estéticamente limpias.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISIÓN Y VISIÓN -->
+  <section class="seccion-mv">
+    <h2>Misión y Visión</h2>
+    <div class="contenedor-mv">
+      <div class="tarjeta">
+        <div class="icono">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8zm1-13h-2v6h6v-2h-4z"/></svg>
+        </div>
+        <div>
+          <h3>Misión</h3>
+          <p>Satisfacer las necesidades de nuestros clientes y superar sus expectativas; siempre enfocados en el trabajo en equipo y con el profesionalismo que nos distingue.</p>
+        </div>
+      </div>
+      <div class="tarjeta">
+        <div class="icono">
+          <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.7 7.6 1 12c1.7 4.4 6 7.5 11 7.5s9.3-3.1 11-7.5c-1.7-4.4-6-7.5-11-7.5zm0 13c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6zm0-10a4 4 0 100 8 4 4 0 000-8z"/></svg>
+        </div>
+        <div>
+          <h3>Visión</h3>
+          <p>Ser una empresa líder en el ramo de la construcción, destacándose por el servicio al cliente, nuestro recurso humano como nuestra mayor fortaleza, para que tu éxito sea nuestro negocio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- SERVICIOS -->
+<section class="servicios-section" id="serv">
+  <br><br><br><br><br>
+  <h2 class="servicios-titulo">NUESTROS SERVICIOS</h2>
+
+  <!-- Acordeón de escritorio (original) -->
+  <div class="acordeon-lealco">
+    <div class="acordeon-item">
+      <div class="fondo" style="background-image:url('img/Comercial.jpg')"></div>
+      <div class="overlay"></div>
+      <div class="label-bar">COMERCIAL</div>
+      <div class="acordeon-content">
+        <p>Soluciones de construcción para cadenas comerciales a nivel nacional.</p>
+        <a href="comercial.html" class="btn-saber-mas">Saber más</a>
+      </div>
+    </div>
+    <div class="acordeon-item">
+      <div class="fondo" style="background-image:url('img/Mineria.jpg')"></div>
+      <div class="overlay"></div>
+      <div class="label-bar">IND. MINERA</div>
+      <div class="acordeon-content">
+        <p>Obra civil y trabajos especializados con personal certificado para minas.</p>
+        <a href="minera.html" class="btn-saber-mas">Saber más</a>
+      </div>
+    </div>
+    <div class="acordeon-item">
+      <div class="fondo" style="background-image:url('img/Electrica.jpeg')"></div>
+      <div class="overlay"></div>
+      <div class="label-bar">INST. ELÉCTRICAS</div>
+      <div class="acordeon-content">
+        <p>Construcción de infraestructura eléctrica con enfoque seguro y renovable.</p>
+        <a href="electrica.html" class="btn-saber-mas">Saber más</a>
+      </div>
+    </div>
+    <div class="acordeon-item">
+      <div class="fondo" style="background-image:url('img/Mantenimiento.jpeg')"></div>
+      <div class="overlay"></div>
+      <div class="label-bar">MANT. INDUSTRIAL</div>
+      <div class="acordeon-content">
+        <p>Servicios de mantenimiento preventivo y correctivo para la industria.</p>
+        <a href="industrial.html" class="btn-saber-mas">Saber más</a>
+      </div>
+    </div>
+    <div class="acordeon-item">
+      <div class="fondo" style="background-image:url('img/Inmobiliaria.jpg')"></div>
+      <div class="overlay"></div>
+      <div class="label-bar">INMOBILIARIA</div>
+      <div class="acordeon-content">
+        <p>Diseño y desarrollo de proyectos inmobiliarios funcionales y sostenibles.</p>
+        <a href="inmobiliaria.html" class="btn-saber-mas">Saber más</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Acordeón visual para móviles -->
+  <div class="accordion-visual-mobile">
+    <div class="accordion-card">
+      <img src="img/Comercial.jpg" alt="Comercial">
+      <button class="accordion-header">
+        COMERCIAL <span class="icon">+</span>
+      </button>
+      <div class="accordion-body">
+        <p>Soluciones de construcción para cadenas comerciales a nivel nacional.</p>
+        <a href="comercial.html" class="btn-saber-mas">Saber más</a>
+      </div>
+    </div>
+
+    <div class="accordion-card">
+      <img src="img/Mineria.jpg" alt="Minera">
+      <button class="accordion-header">
+        IND. MINERA <span class="icon">+</span>
+      </button>
+      <div class="accordion-body">
+        <p>Obra civil y trabajos especializados con personal certificado para minas.</p>
+        <a href="minera.html" class="btn-saber-mas">Saber más</a>
+      </div>
+    </div>
+
+    <div class="accordion-card">
+      <img src="img/Electrica.jpeg" alt="Eléctrica">
+      <button class="accordion-header">
+        INST. ELÉCTRICAS <span class="icon">+</span>
+      </button>
+      <div class="accordion-body">
+        <p>Construcción de infraestructura eléctrica con enfoque seguro y renovable.</p>
+        <a href="electrica.html" class="btn-saber-mas">Saber más</a>
+      </div>
+    </div>
+
+    <div class="accordion-card">
+      <img src="img/Mantenimiento.jpeg" alt="Industrial">
+      <button class="accordion-header">
+        MANT. INDUSTRIAL <span class="icon">+</span>
+      </button>
+      <div class="accordion-body">
+        <p>Servicios de mantenimiento preventivo y correctivo para la industria.</p>
+        <a href="industrial.html" class="btn-saber-mas">Saber más</a>
+      </div>
+    </div>
+
+    <div class="accordion-card">
+      <img src="img/Inmobiliaria.jpg" alt="Inmobiliaria">
+      <button class="accordion-header">
+        INMOBILIARIA <span class="icon">+</span>
+      </button>
+      <div class="accordion-body">
+        <p>Diseño y desarrollo de proyectos inmobiliarios funcionales y sostenibles.</p>
+        <a href="inmobiliaria.html" class="btn-saber-mas">Saber más</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARRUSEL CLIENTES -->
+<section class="lealco-carousel-section" id="clientes">
+  <br>
+  <br>
+  <h2 class="carousel-title">Nuestros clientes</h2>
+  <div class="lealco-carousel">
+    <div class="carousel-track">
+      <img src="img\CFE.png" alt="Cliente 1">
+      <img src="img\CRYOINFRA.png" alt="Cliente 2">
+      <img src="img\FEMSA.png" alt="Cliente 3">
+      <img src="img\FRESNILLO.png" alt="Cliente 4">
+      <img src="img\LALA.png" alt="Cliente 5">
+      <img src="img\OXXO.png" alt="Cliente 6">
+      <img src="img\PENOLES.png" alt="Cliente 7 ">
+      <img src="img\SAUCITO.png" alt="Cliente 8 ">
+      <img src="img\SIMSA.png" alt="Cliente 9 ">
+      <img src="img\VOLTRAK.png" alt="Cliente 10 ">
+    </div>
+  </div>
+</section>
+
+<!-- CONTADOR / RESULTADOS REALES -->
+<section class="lealco-stats" id="resultados">
+  <div class="lealco-stats-wrapper">
+    <div class="stats-description">
+      <h2>Resultados Reales</h2>
+      <p>En LEALCO, nuestro compromiso se refleja en cada proyecto que entregamos. Desde desarrollos residenciales hasta instalaciones industriales, trabajamos con excelencia y eficiencia.</p>
+    </div>
+    <div class="stats-container">
+      <div class="stat-box">
+        <div class="stat-number" data-target="150">0</div>
+        <p>Casas construidas</p>
+      </div>
+      <div class="stat-box">
+        <div class="stat-number" data-target="40">0</div>
+        <p>Comercios realizados</p>
+      </div>
+      <div class="stat-box">
+        <div class="stat-number" data-target="75">0</div>
+        <p>Instalaciones eléctricas</p>
+      </div>
+      <div class="stat-box">
+        <div class="stat-number" data-target="30">0</div>
+        <p>Proyectos industriales</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERÍA DE PROYECTOS -->
+<section class="lealco-tabs-section" id="proyectos">
+  <br>
+  <br>
+  <div class="tabs-header">
+    <h2>Nuestros Proyectos</h2>
+    <p>Descubre las distintas áreas en las que trabajamos en LEALCO, ofreciendo calidad, innovación y compromiso en cada proyecto.</p>
+  </div>
+  <div class="tabs-menu">
+    <button class="tab active" data-tab="comercial">Comercial</button>
+    <button class="tab" data-tab="minera">Industria Minera</button>
+    <button class="tab" data-tab="electrica">Instalaciones Eléctricas</button>
+    <button class="tab" data-tab="industrial">Industrial</button>
+    <button class="tab" data-tab="inmobiliaria">Inmobiliaria</button>
+  </div>
+  <div class="tabs-content">
+    <div class="collage-gallery">
+      <div class="collage-gallery-horizontal" id="tab-images">
+        <img src="img/comercial1.jpg" alt="Comercial 1">
+        <img src="img/comercial2.jpg" alt="Comercial 2">
+        <img src="img/comercial3.jpg" alt="Comercial 3">
+        <img src="img/comercial4.jpg" alt="Comercial 4">
+        <img src="img/comercial4.jpg" alt="Comercial 5">
+      </div>
+      <div class="collage-gallery-horizontal alternate">
+        <img src="img/comercial1.jpg" alt="Comercial 6">
+        <img src="img/comercial2.jpg" alt="Comercial 7">
+        <img src="img/comercial3.jpg" alt="Comercial 8">
+        <img src="img/comercial4.jpg" alt="Comercial 9">
+        <img src="img/comercial4.jpg" alt="Comercial 10">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer-lealco" id="contactos">
+  <div class="footer-top-bar">
+    <div class="footer-logo">
+      <img src="img/LOGO OFICIAL-blanco_Mesa de trabajo 1.png" alt="LEALCO Logo">
+    </div>
+    <div class="footer-social-top">
+      <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="img/tiktok.png" alt="TikTok"></a>
+    </div>
+  </div>
+  <hr class="footer-divider">
+  <div class="footer-container">
+    <div class="footer-col">
+      <h3>Contacto</h3>
+      <p><strong>Dirección:</strong><br>Av. Universidad #251, Col. Paraíso del Nazas.<br>Torreón, Coahuila. C.P. 27110</p>
+      <p><strong>Email:</strong><br><a href="mailto:contacto@lealcosoluciones.com">contacto@lealcosoluciones.com</a></p>
+      <p><strong>Teléfonos:</strong><br><a href="tel:8721213057">8721213057</a></p>
+      <br>
+      <!-- Politica de privacidad -->
+      <h3>Aviso de Privacidad</h3>
+      <a href="politica.html">Aviso de Privacidad</a>
+    </div>
+    <div class="footer-col">
+      <h3>Horario</h3>
+      <p>Lunes a Viernes<br>9:00 AM – 6:00 PM</p>
+    </div>
+    <div class="footer-col">
+      <h3>Ubicación</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2019.8338608882138!2d-103.42932331765607!3d25.573827783374796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fda387f908415%3A0xcd4c7310b0577f7f!2sLEALCO%20SOLUCIONES!5e0!3m2!1ses-419!2smx!4v1746297630932!5m2!1ses-419!2smx" width="300" height="300" style="border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</footer>
+
+    <!-- BOTÓN DE REDES SOCIALES FLOTANTE -->
+    <div class="social-launcher" id="social-launcher">
+      <div class="launcher-toggle" id="launcher-toggle">
+        <img src="img/redes.png" alt="Redes" />
+      </div>
+      <div class="social-icons" id="social-icons">
+        <a href="https://wa.me/+528721213057" target="_blank" class="icon-btn"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+        <a href="https://www.instagram.com/lealcosoluciones/" target="_blank" class="icon-btn"><img src="img/instagram.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/lealcosoluciones/" target="_blank" class="icon-btn"><img src="img/facebook.png" alt="Facebook"></a>
+        <a href="https://www.tiktok.com/@lealcosoluciones" target="_blank" class="icon-btn"><img src="img/tiktok.png" alt="Tiktok"></a>
+      </div>
+    </div>
+  
+
+<script src="script.js"></script>
+</body>
+</html>

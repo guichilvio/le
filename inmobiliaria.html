@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="servicesStyles.css">
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/LEALCO INMOBILIARIA.png" type="image/x-icon">
+    <title>Lealco | Inmobiliaria</title>
+</head>
+<body>
+     <!-- Overlay y Sidebar -->
+<div class="overlay" id="overlay"></div>
+<nav class="sidebar" id="sidebar">
+  <a href="index.html">INICIO</a>
+  <a href="#serv" id="sidebar-servicios-link">SERVICIOS ▾</a>
+    <div class="submenu" id="sidebar-submenu">
+        <a href="comercial.html">Comercial</a>
+        <a href="minera.html">Industria Minera</a>
+        <a href="electrica.html">Inst. Eléctricas</a>
+        <a href="industrial.html">Mantenimiento Industrial</a>
+        <a href="inmobiliaria.html">Inmobiliaria</a>
+    </div>
+  <a href="#contactos">CONTACTOS</a>
+</nav>
+    
+    <!-- Navbar principal -->
+    <header class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+        <ul class="nav-left">
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="#proyectos">PROYECTOS</a></li>
+        </ul>
+        <div class="logo">
+          <img id="logo-img" src="img/LOGO OFICIAL-blanco_Mesa de trabajo 1.png" alt="LEALCO Logo">
+        </div>
+        <ul class="nav-right">
+          <li><a href="#clientes">CLIENTES</a></li>
+          <li class="dropdown">
+            <a href="#serv" id="servicios-link">SERVICIOS ▾</a>
+            <ul class="dropdown-menu" id="dropdown-menu">
+              <li><a href="comercial.html">Comercial</a></li>
+              <li><a href="minera.html">Industria Minera</a></li>
+              <li><a href="electrica.html">Inst. Eléctricas</a></li>
+              <li><a href="industrial.html">Mantenimiento Industrial</a></li>
+              <li><a href="inmobiliaria.html">Inmobiliaria</a></li>
+            </ul>
+          </li>
+          <li><a href="#contactos">CONTACTOS</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Services ------------------------------------ -->
+     
+    <div class="hero-imagen" style="background-image: url(public/casas/8.jpg);">
+        <section class="hero" >
+            <div class="content">
+                <h2  class="animar-titulo">Pasión por Construir el Futuro
+                </h2>
+            </div>
+        <div class="waves"></div>
+        </section>  
+        <section class="description-container">
+            <blockquote class="otro-blockquote">
+                <p>Desarrollamos y gestionamos proyectos inmobiliarios residenciales, comerciales e industriales, ofreciendo asesoría integral en compra, venta y administración de propiedades. Acompañamos a nuestros clientes en cada etapa, brindando seguridad jurídica, respaldo técnico y oportunidades de inversión rentables en mercados de alta proyección.</p>
+            </blockquote>
+        </section>
+    </div>
+    <!-- Card Services ---------------------------------------------------------------- -->
+
+    <div class="container-fluid projects bg-light py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div>
+                        <h4 class="text-primary">Nuestros Servicios</h4>
+                        <h1 class="display-4 mb-4">INMOBILIARIA</h1>
+                        <p class="mb-5">Acompañamos tus sueños inmobiliarios con experiencia, compromiso y resultados reales.</p>
+                        <ul class="nav">
+                            <li class="nav-item bg-white mb-4 w-100">
+                                <a class="d-flex align-items-center h4 mb-0 p-3 active" data-bs-toggle="pill" href="#ProjectsTab-1">
+                                    <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-bolt small"></span></div><span>Comercialización Efectiva de Propiedades</span>
+                                </a>
+                            </li>
+                            <li class="nav-item bg-white mb-4 w-100">
+                                <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-2">
+                                    <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-charging-station small"></span></div><span>Asesoría Técnica, Legal y Financiera</span>
+                                </a>
+                            </li>
+                            <li class="nav-item bg-white mb-4 w-100">
+                                <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-3">
+                                    <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-broadcast-tower small"></span></div><span>Inversiones de Alto Potencial</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="tab-content">
+                        <div id="ProjectsTab-1" class="tab-pane fade show p-0 active">
+                            <div class="projects-item">
+                                <img src="public/casas/1.jpg" class="img-fluid w-100" alt="">
+                                <div class="projects-content bg-white p-4">
+                                    <h4 class="mb-3">Comercialización Efectiva de Propiedades</h4>
+                                    <p class="mb-4">Utilizamos estrategias de venta modernas, canales digitales, visitas virtuales y alianzas comerciales para asegurar una colocación rápida de inmuebles.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="ProjectsTab-2" class="tab-pane fade show p-0">
+                            <div class="projects-item">
+                                <img src="public/casas/3.jpg" class="img-fluid w-100" alt="">
+                                <div class="projects-content bg-white p-4">
+                                    <h4 class="mb-3">Asesoría Técnica, Legal y Financiera</h4>
+                                    <p class="mb-4">Acompañamos a nuestros clientes durante todo el proceso de adquisición o inversión, facilitando trámites y ofreciendo seguridad jurídica en cada transacción.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="ProjectsTab-3" class="tab-pane fade show p-0">
+                            <div class="projects-item">
+                                <img src="public/casas/5.jpeg" class="img-fluid w-100" alt="">
+                                <div class="projects-content bg-white p-4">
+                                    <h4 class="mb-3">Inversiones de Alto Potencial</h4>
+                                    <p class="mb-4">Evaluamos oportunidades de inversión inmobiliaria con análisis del mercado, plusvalía, crecimiento urbano y proyección financiera.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card services reverse -------------------------------------------------------- -->
+<div class="container-fluid projects bg-light py-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-5 order-1 order-lg-2 wow fadeInLeft" data-wow-delay="0.2s">
+                <div>
+                    <h4 class="text-primary">Nuestros Servicios</h4>
+                    <h1 class="display-4 mb-4">INMOBILIARIA</h1>
+                    <p class="mb-5">Más que propiedades, ofrecemos seguridad, rentabilidad y un respaldo que puedes confiar.</p>
+                    <ul class="nav">
+                        <li class="nav-item bg-white mb-4 w-100">
+                            <a class="d-flex align-items-center h4 mb-0 p-3 active" data-bs-toggle="pill" href="#ProjectsTabR-1">
+                                <div class="projects-icon btn-md-square bg-primary text-white me-3">
+                                    <span class="fas fa-bolt small"></span>
+                                </div>
+                                <span>Gestión Integral de Proyectos Inmobiliarios</span>
+                            </a>
+                        </li>
+                        <li class="nav-item bg-white mb-4 w-100">
+                            <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTabR-2">
+                                <div class="projects-icon btn-md-square bg-primary text-white me-3">
+                                    <span class="fas fa-charging-station small"></span>
+                                </div>
+                                <span>Administración Profesional de Propiedades</span>
+                            </a>
+                        </li>
+                        <li class="nav-item bg-white mb-4 w-100">
+                            <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTabR-3">
+                                <div class="projects-icon btn-md-square bg-primary text-white me-3">
+                                    <span class="fas fa-broadcast-tower small"></span>
+                                </div>
+                                <span>Opciones de Financiamiento Accesibles</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-7 order-2 order-lg-1 wow fadeInRight" data-wow-delay="0.2s">
+                <div class="tab-content">
+                    <div id="ProjectsTabR-1" class="tab-pane fade show p-0 active">
+                        <div class="projects-item">
+                            <img src="public/casas/2.jpg" class="img-fluid w-100" alt="">
+                            <div class="projects-content bg-white p-4">
+                                <h4 class="mb-3">Gestión Integral de Proyectos Inmobiliarios</h4>
+                                <p class="mb-4">Desde el diseño hasta la entrega, nos encargamos de cada fase de los proyectos, garantizando un desarrollo ordenado, rentable y acorde al mercado objetivo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="ProjectsTabR-2" class="tab-pane fade show p-0">
+                        <div class="projects-item">
+                            <img src="public/casas/4.jpg" class="img-fluid w-100" alt="">
+                            <div class="projects-content bg-white p-4">
+                                <h4 class="mb-3">Administración Profesional de Propiedades</h4>
+                                <p class="mb-4">Manejamos alquileres, pagos, mantenimientos y atención al inquilino de forma eficiente, ayudando a los propietarios a maximizar su rentabilidad sin complicaciones.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="ProjectsTabR-3" class="tab-pane fade show p-0">
+                        <div class="projects-item">
+                            <img src="public/casas/6.jpeg" class="img-fluid w-100" alt="">
+                            <div class="projects-content bg-white p-4">
+                                <h4 class="mb-3">Opciones de Financiamiento Accesibles</h4>
+                                <p class="mb-4">Contamos con convenios con entidades bancarias que permiten acceder a créditos, leasing o pagos diferidos, haciendo posible el sueño de tener una propiedad.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <!-- Cards Pros---------------------------------------------- -->
+    <div class="container-father">
+        <div class="container">
+            <h1>Ventajas de trabajar con nosotros</h1>
+            <div class="card">
+                <div class="box">
+                    <div class="content">
+                        <h2>01</h2>
+                        <h3>Asesoría Integral en Todos los Procesos</h3>
+                        <p>Te acompañamos en cada paso del proceso inmobiliario, desde la búsqueda de propiedades hasta la compra o alquiler, con asesoría legal, financiera y técnica.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="box">
+                    <div class="content">
+                        <h2>02</h2>
+                        <h3>Inversiones Seguras y Rentables</h3>
+                        <p>Te ayudamos a identificar las mejores oportunidades de inversión en el mercado inmobiliario, con proyectos que ofrecen una alta rentabilidad y una apreciación sólida a largo plazo.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="box">
+                    <div class="content">
+                        <h2>03</h2>
+                        <h3>Gestión Profesional de Propiedades</h3>
+                        <p>Ofrecemos un servicio de administración de propiedades altamente eficiente, encargándonos de todos los aspectos relacionados con el alquiler, mantenimiento y gestión de pagos, para que no tengas que preocuparte por nada.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BOTÓN DE REDES SOCIALES FLOTANTE -->
+ <div class="social-launcher" id="social-launcher">
+    <div class="launcher-toggle" id="launcher-toggle">
+      <img src="img/redes.png" alt="Redes" />
+    </div>
+    <div class="social-icons" id="social-icons">
+      <a href="https://wa.me/+528721213057" target="_blank" class="icon-btn"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+      <a href="https://www.instagram.com/lealcosoluciones/" target="_blank" class="icon-btn"><img src="img/instagram.png" alt="Instagram"></a>
+      <a href="https://www.facebook.com/lealcosoluciones/" target="_blank" class="icon-btn"><img src="img/facebook.png" alt="Facebook"></a>
+      <a href="https://www.tiktok.com/@lealcosoluciones" target="_blank" class="icon-btn"><img src="img/tiktok.png" alt="Tiktok"></a>
+    </div>
+  </div>
+
+<!-- FOOTER -->
+<footer class="footer-lealco" id="contactos">
+    <div class="footer-top-bar">
+      <div class="footer-logo">
+        <img src="img/LOGO OFICIAL-blanco_Mesa de trabajo 1.png" alt="LEALCO Logo">
+      </div>
+      <div class="footer-social-top">
+        <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="img/tiktok.png" alt="TikTok"></a>
+      </div>
+    </div>
+    <hr class="footer-divider">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>Contacto</h3>
+        <p><strong>Dirección:</strong><br>Av. Universidad #251, Col. Paraíso del Nazas.<br>Torreón, Coahuila. C.P. 27110</p>
+        <p><strong>Email:</strong><br><a href="mailto:contacto@lealcosoluciones.com">contacto@lealcosoluciones.com</a></p>
+        <p><strong>Teléfonos:</strong><br><a href="tel:8721213057">8721213057</a></p>
+        <br>
+        <!-- Politica de privacidad -->
+        <h3>Aviso de Privacidad</h3>
+        <a href="politica.html">Aviso de Privacidad</a>
+      </div>
+      <div class="footer-col">
+        <h3>Horario</h3>
+        <p>Lunes a Viernes<br>9:00 AM – 6:00 PM</p>
+      </div>
+      <div class="footer-col">
+        <h3>Ubicación</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2019.8338608882138!2d-103.42932331765607!3d25.573827783374796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fda387f908415%3A0xcd4c7310b0577f7f!2sLEALCO%20SOLUCIONES!5e0!3m2!1ses-419!2smx!4v1746297630932!5m2!1ses-419!2smx" width="300" height="300" style="border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </footer>
+    
+  <script src="Script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+
+</html>
